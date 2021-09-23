@@ -1,0 +1,19 @@
+.conteudoPrincipal-cursos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end-reverse;
+}
+
+.conteudoPrincipal-cursos-link{
+	width: 23%;
+	margin: 1%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n){
+	/*multiplo de 4*/
+	margin-right: 0;
+}
+.conteudoPrincipal-cursos-link:nth-child(4n+1){ 
+	/*multiplo de 5 . nth filho do link*/
+	margin-left: : 0;
+}

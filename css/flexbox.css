@@ -1,0 +1,26 @@
+.cabecalhoPrincipal-titulo{
+   
+}
+
+.cabecalhoPrincipal-nav{
+      /*display: inline-block;
+      vertical-align: middle; no meio
+     */
+   
+}
+
+.cabecalhoPrincipal .container {
+    display: flex; /* no pai */
+    align-items: center; /*alinhar no centro */
+    justify-content: space-between;
+   
+}
+
+.cabecalhoPrincipal-nav{
+    display: flex;
+    margin: 1px;
+}
+
+.cabecalhoPrincipal-nav-link{
+	margin:1px;
+}

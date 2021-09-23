@@ -1,0 +1,29 @@
+
+.rodapePrincipal-patrocinadores .container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list{
+	display: flex;
+	align-items: center;
+	justify-content: space-around; /* espaço em volta dos elementos */
+	width: 75%;
+}
+
+.rodapePrincipal-contatoForm{
+	width: 25%;
+	padding: 2rem;
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+	display: flex;
+}
+
+.rodapePrincipal-navMap-list{
+	display: flex;
+	flex-direction: column; 
+	flex-wrap: wrap; /*quebrar para a proxima coluna 
+	determina a altura quando ele preencher tudo ele quebrar p outra coluna*/
+	height: 248px;
+}
